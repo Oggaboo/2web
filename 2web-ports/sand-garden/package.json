@@ -1,0 +1,31 @@
+{
+  "name": "sand-garden",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sand Garden: a 2Web build of the MIT-licensed falling-sand game Sandspiel by Max Bittker",
+  "license": "(MIT OR Apache-2.0)",
+  "scripts": {
+    "wasm": "npx wasm-pack build crate --target bundler --release",
+    "build": "npm run wasm && webpack --mode=production && node tools/package.mjs",
+    "playtest": "node tools/playtest/test.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^12.0.2",
+    "glslify": "^6.4.1",
+    "glslify-loader": "^1.0.2",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "glsl-hsv2rgb": "^1.0.0",
+    "glsl-noise": "0.0.0",
+    "glsl-random": "0.0.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "regl": "^1.3.13"
+  }
+}

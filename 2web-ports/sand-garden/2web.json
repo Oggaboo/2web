@@ -1,0 +1,11 @@
+{
+    "slug": "sand-garden",
+    "title": "Sand Garden",
+    "version": "1.0.0",
+    "description": "Pour sand, water, lava, seeds and fifteen other elements into a little world and watch them flow, grow, burn and react. A calm sandbox toy with no score and no way to lose.",
+    "controls": "Mouse or finger: drag to draw, tap the buttons to pick an element and brush size. Keyboard: Space to pause, Z to undo, 1 to 5 for brush size, [ and ] to change element.",
+    "categories": ["simulation", "casual"],
+    "tags": ["sand", "sandbox", "elements", "physics", "relaxing"],
+    "rating": "everyone",
+    "ratingNote": ""
+}
