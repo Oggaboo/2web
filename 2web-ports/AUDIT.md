@@ -24,6 +24,22 @@ to check or package for them.
 
 The only other open-licensed folder is `702` (MIT), and it is a console emulator, not a game.
 
+## Licence checks on the other candidates (2026-11-15)
+
+The list is not open source as a whole: most entries are commercial games. These are the folders
+that looked as if they might be open, and what their own licence terms say.
+
+| Folder | Game | Finding |
+|---|---|---|
+| 309 | Sandboxels | Source is public, but under the "R74n Content License": all rights reserved, no advertising or other commercial use without permission, and its credits and links may not be removed. Rules 2.5 and 5.5 need exactly those removed, so it cannot be ported |
+| 260 | RE:RUN | Source is public (a game-jam repository) with no licence file, which means no permission to republish or modify |
+| 330, 311, 442, 197 | BitPlanes, Sandtris, Infinimoes, Elastic Man | No licence in the folder and no open-source repository found for the game |
+| 308, 203 | Nazi Zombies: Portable, DOOM | Open-source engines, but the content is outside Everyone / 12+ and the names and look belong to other games; their licences were not checked further |
+| 702, 113 | JavascriptPS1, Ruffle | Open source, but emulators rather than games |
+
+Replacing the pictures or changing the theme of a game does not change who owns its code, so a
+reskin of a commercial game is still that studio's game.
+
 ## Folder by folder
 
 "Mechanical failures" were measured by script (file layout, sizes, hosts named in the HTML).
